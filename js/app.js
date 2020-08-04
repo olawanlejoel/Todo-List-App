@@ -60,9 +60,9 @@ function addTodo(toDo, id, done, trash) {
 
     let text = `
         <li class="item">
-            <i class="fas fa-circle-notch ${DONE}" id="${id}" job="complete"></i>
+            <i class="fa fa-circle-thin ${DONE}" id="${id}" job="complete"></i>
             <span id="${id}" class="${LINE} toDo">${toDo}</span>
-            <i class="fas fa-trash delete" id="${id}" job="delete"></i>
+            <i class="fa fa-trash-o delete" id="${id}" job="delete"></i>
         </li>
     `;
 
