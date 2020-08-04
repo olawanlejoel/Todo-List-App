@@ -19,7 +19,7 @@ date.innerHTML = today.toLocaleDateString("en-US", options);
 
 //Add Todo
 
-const CHECK = "fa fa-check-circle";
+const CHECK = "tick-through";
 const LINE_THROUGH = "line-through";
 const UNCHECK = "tick";
 
